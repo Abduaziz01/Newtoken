@@ -1,3 +1,4 @@
 """
 GitHub Daily Commit Bot — улучшенная версия
 - Автовосстановление при ошибках
+- Retry логика для GitHub API

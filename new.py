@@ -8,3 +8,4 @@ GitHub Daily Commit Bot — улучшенная версия
 - Подробный статус
 - /reset для перезапуска
 
+Установка: pip install python-telegram-bot requests apscheduler

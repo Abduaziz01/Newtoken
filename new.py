@@ -9,3 +9,4 @@ GitHub Daily Commit Bot — улучшенная версия
 - /reset для перезапуска
 
 Установка: pip install python-telegram-bot requests apscheduler
+Запуск:    BOT_TOKEN=токен python bot.py

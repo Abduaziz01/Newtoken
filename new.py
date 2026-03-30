@@ -12,3 +12,4 @@ GitHub Daily Commit Bot — улучшенная версия
 Запуск:    BOT_TOKEN=токен python bot.py
 """
 
+import os

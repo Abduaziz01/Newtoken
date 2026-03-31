@@ -13,3 +13,4 @@ GitHub Daily Commit Bot — улучшенная версия
 """
 
 import os
+import sqlite3

@@ -15,3 +15,4 @@ GitHub Daily Commit Bot — улучшенная версия
 import os
 import sqlite3
 import asyncio
+import base64

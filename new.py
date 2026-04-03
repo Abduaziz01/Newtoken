@@ -16,3 +16,4 @@ import os
 import sqlite3
 import asyncio
 import base64
+import logging

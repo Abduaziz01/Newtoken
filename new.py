@@ -22,3 +22,4 @@ from datetime import datetime, timezone
 from functools import wraps
 
 import requests
+from apscheduler.schedulers.asyncio import AsyncIOScheduler

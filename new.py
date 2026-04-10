@@ -23,3 +23,4 @@ from functools import wraps
 
 import requests
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from telegram import Update, ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup

@@ -31,3 +31,4 @@ from telegram.ext import (
 from telegram.error import TelegramError
 
 # ─────────────────────────────────────────────
+# НАСТРОЙКИ

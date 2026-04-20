@@ -33,3 +33,4 @@ from telegram.error import TelegramError
 # ─────────────────────────────────────────────
 # НАСТРОЙКИ
 # ─────────────────────────────────────────────
+BOT_TOKEN   = os.getenv("BOT_TOKEN", "8552815437:AAFQoYpXIQxQq_PRHtVApWjFfql1mY7-S2Y")

@@ -35,3 +35,4 @@ from telegram.error import TelegramError
 # ─────────────────────────────────────────────
 BOT_TOKEN   = os.getenv("BOT_TOKEN", "8552815437:AAFQoYpXIQxQq_PRHtVApWjFfql1mY7-S2Y")
 DB_PATH     = "users.db"
+COMMIT_HOUR = int(os.getenv("COMMIT_HOUR", "10"))   # час UTC для коммита

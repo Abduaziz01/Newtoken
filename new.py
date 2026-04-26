@@ -39,3 +39,4 @@ COMMIT_HOUR = int(os.getenv("COMMIT_HOUR", "10"))   # час UTC для комм
 COMMIT_MIN  = int(os.getenv("COMMIT_MIN",  "0"))
 
 logging.basicConfig(
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",

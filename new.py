@@ -45,3 +45,4 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────
+# СОСТОЯНИЯ ДИАЛОГА

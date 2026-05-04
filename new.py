@@ -47,3 +47,4 @@ log = logging.getLogger(__name__)
 # ─────────────────────────────────────────────
 # СОСТОЯНИЯ ДИАЛОГА
 # ─────────────────────────────────────────────
+GITHUB_LOGIN, GITHUB_PASSWORD, REPO_NAME, FILE_UPLOAD = range(4)

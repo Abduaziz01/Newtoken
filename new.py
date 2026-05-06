@@ -49,3 +49,4 @@ log = logging.getLogger(__name__)
 # ─────────────────────────────────────────────
 GITHUB_LOGIN, GITHUB_PASSWORD, REPO_NAME, FILE_UPLOAD = range(4)
 
+# ─────────────────────────────────────────────

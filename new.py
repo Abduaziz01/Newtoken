@@ -56,3 +56,4 @@ COLS = [
     "chat_id", "github_login", "github_token", "repo_name",
     "file_content", "file_name", "current_line", "total_lines",
     "setup_done", "paused", "last_commit_date", "fail_count",
+]

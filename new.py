@@ -57,3 +57,4 @@ COLS = [
     "file_content", "file_name", "current_line", "total_lines",
     "setup_done", "paused", "last_commit_date", "fail_count",
 ]
+

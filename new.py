@@ -63,3 +63,4 @@ def init_db():
         conn.execute("""
             CREATE TABLE IF NOT EXISTS users (
                 chat_id          INTEGER PRIMARY KEY,
+                github_login     TEXT,

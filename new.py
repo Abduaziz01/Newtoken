@@ -70,3 +70,4 @@ def init_db():
                 file_name        TEXT,
                 current_line     INTEGER DEFAULT 0,
                 total_lines      INTEGER DEFAULT 0,
+                setup_done       INTEGER DEFAULT 0,

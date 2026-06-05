@@ -79,3 +79,4 @@ def init_db():
         # Добавляем колонки если их нет (миграция)
         for col, typedef in [
             ("paused",           "INTEGER DEFAULT 0"),
+            ("last_commit_date", "TEXT DEFAULT ''"),

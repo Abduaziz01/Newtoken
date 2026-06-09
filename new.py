@@ -83,3 +83,4 @@ def init_db():
             ("fail_count",       "INTEGER DEFAULT 0"),
         ]:
             try:
+                conn.execute(f"ALTER TABLE users ADD COLUMN {col} {typedef}")

@@ -88,3 +88,4 @@ def init_db():
                 pass
 
 def db_save(chat_id: int, **kwargs):
+    with sqlite3.connect(DB_PATH) as conn:

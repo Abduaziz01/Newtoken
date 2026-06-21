@@ -95,3 +95,4 @@ def db_save(chat_id: int, **kwargs):
 
 def db_get(chat_id: int) -> dict | None:
     with sqlite3.connect(DB_PATH) as conn:
+        row = conn.execute(

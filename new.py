@@ -98,3 +98,4 @@ def db_get(chat_id: int) -> dict | None:
         row = conn.execute(
             "SELECT * FROM users WHERE chat_id=?", (chat_id,)
         ).fetchone()
+    return dict(zip(COLS, row)) if row else None

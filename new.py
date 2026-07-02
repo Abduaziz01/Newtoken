@@ -105,3 +105,4 @@ def db_all_active() -> list[int]:
     with sqlite3.connect(DB_PATH) as conn:
         rows = conn.execute(
             "SELECT chat_id FROM users "
+            "WHERE setup_done=1 AND paused=0 AND current_line < total_lines"
